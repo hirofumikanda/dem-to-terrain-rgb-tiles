@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MERGED_TIF="./merged_nodata_filled.tif"
+MERGED_TIF="./merged.tif"
 TILE_DIR="./data/tiles"
 ZOOM="0-14"
 

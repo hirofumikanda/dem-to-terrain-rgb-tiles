@@ -1,11 +1,10 @@
 #!/bin/bash
 
-INPUT_DIR="./data/output"
+INPUT_DIR="./data/output_filled"
 MERGED_TIF="./merged.tif"
 
 # 作業ディレクトリ初期化
-rm -rf "$INPUT_DIR" "$MERGED_TIF"
-mkdir -p "$INPUT_DIR"
+rm -f "$MERGED_TIF"
 
 # すべての .tif を1つにマージ
 echo "Merging all TIFFs in $INPUT_DIR..."
