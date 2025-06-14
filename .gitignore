@@ -1,3 +1,4 @@
 data/
 fgd/
-tmp_tiles/
+*.tif
+*.mbtiles
