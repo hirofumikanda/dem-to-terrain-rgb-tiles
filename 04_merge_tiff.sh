@@ -4,8 +4,8 @@ INPUT_DIR="./data/output"
 MERGED_TIF="./merged.tif"
 
 # 作業ディレクトリ初期化
-rm -rf "$TILE_DIR" "$MERGED_TIF"
-mkdir -p "$TILE_DIR"
+rm -rf "$INPUT_DIR" "$MERGED_TIF"
+mkdir -p "$INPUT_DIR"
 
 # すべての .tif を1つにマージ
 echo "Merging all TIFFs in $INPUT_DIR..."
