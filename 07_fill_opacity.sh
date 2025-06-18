@@ -8,6 +8,7 @@ find "$TILE_DIR" -type f -name "*.png" | while read -r png_file; do
 
     convert "$png_file" \
         -background "$REPLACE_COLOR" -alpha remove -alpha off \
+        -fill "$REPLACE_COLOR" -opaque "rgb(0,0,0)" \
         "$png_file"
 
 done
